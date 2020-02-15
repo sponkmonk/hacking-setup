@@ -17,3 +17,6 @@ git clone https://github.com/assetnote/commonspeak2-wordlists.git /opt/commonspe
 
 # Jhaddix All
 wget https://gist.github.com/jhaddix/f64c97d0863a78454e44c2f7119c2a6a/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt -P /opt/jhaddix/
+
+# Wordlists from Kali Linux
+git clone https://github.com/3ndG4me/KaliLists.git /opt/kalilists || git -C /opt/kalilists pull
