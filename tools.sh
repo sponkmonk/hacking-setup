@@ -71,6 +71,11 @@ export GOPATH=/opt/meg
 go get -u github.com/tomnomnom/meg
 ln -s /opt/meg/bin/meg /usr/local/bin/meg
 
+# Megurl
+export GOPATH=/opt/megurl
+go get -u github.com/3lpsy/megurl
+ln -s /opt/megurl/bin/megurl /usr/local/bin/megurl
+
 # Waybackurls
 export GOPATH=/opt/waybackurls
 go get -u github.com/tomnomnom/waybackurls
