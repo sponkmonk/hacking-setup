@@ -46,6 +46,9 @@ apt-get install -y bloodhound
 # Whatweb
 apt-get install -y whatweb
 
+# Enum4Linux
+apt-get install -y enum4linux
+
 # Fnds
 export GOPATH=/opt/fdns
 go get -u github.com/jimen0/fdns/cmd/fdns
