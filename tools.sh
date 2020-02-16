@@ -46,7 +46,7 @@ apt-get install -y bloodhound
 # Whatweb
 apt-get install -y whatweb
 
-# Enum4Linux
+# Enum4Linux - TODO - This has to be made silent
 apt-get install -y enum4linux
 
 # Fnds
