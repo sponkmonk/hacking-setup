@@ -40,6 +40,9 @@ apt-get install -y brutespray
 # PowerSploit
 apt-get install -y powersploit
 
+# Pass the hash toolkit
+apt-get install -y passing-the-hash
+
 # BloodHound
 apt-get install -y bloodhound
 
