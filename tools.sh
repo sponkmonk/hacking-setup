@@ -22,7 +22,7 @@ apt-get install -y steghide
 # Nmap
 apt-get install -y nmap
 
-# Nmap
+# Sqlmap
 apt-get install -y sqlmap
 
 # Amass
@@ -37,14 +37,8 @@ apt-get install -y smbmap
 # Brutespray
 apt-get install -y brutespray
 
-# PowerSploit
-apt-get install -y powersploit
-
 # Pass the hash toolkit
 apt-get install -y passing-the-hash
-
-# BloodHound
-apt-get install -y bloodhound
 
 # Whatweb
 apt-get install -y whatweb
