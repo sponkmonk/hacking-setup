@@ -141,9 +141,6 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt-get install -y ./google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
-# Stego Toolkit
-docker pull dominicbreuker/stego-toolkit
-
 # MassDNS
 apt-get install -y gcc make libpcap-dev
 git clone https://github.com/blechschmidt/massdns.git /opt/massdns || git -C /opt/massdns pull
@@ -157,9 +154,6 @@ git clone https://github.com/robertdavidgraham/masscan /opt/masscan || git -C /o
 cd /opt/masscan
 make
 ln -s /opt/masscan/bin/masscan /usr/local/bin/masscan
-
-# JAWS
-git clone https://github.com/411Hall/JAWS.git /opt/jaws || git -C /opt/jaws pull
 
 # AsnLookup
 git clone https://github.com/yassineaboukir/Asnlookup /opt/asnlookup || git -C /opt/asnlookup pull
@@ -210,3 +204,21 @@ chmod +x /usr/local/bin/dnsexfiltrator
 git clone https://github.com/rxwx/impacket.git /opt/impacket || git -C /opt/impacket pull
 pip3 install -r /opt/impacket/requirements.txt
 pip3 install /opt/impacket/
+
+# Stego Toolkit
+docker pull dominicbreuker/stego-toolkit
+
+# Powershell NTLM
+docker pull quickbreach/powershell-ntlm
+
+# Docker Bloodhound
+docker pull belane/bloodhound
+
+# Bloodhound
+git clone https://github.com/BloodHoundAD/BloodHound.git /opt/bloodhound || git -C /opt/bloodhound pull
+
+# PowerSploit
+git clone https://github.com/PowerShellMafia/PowerSploit.git /opt/powersploit || git -C /opt/powersploit pull
+
+# JAWS
+git clone https://github.com/411Hall/JAWS.git /opt/jaws || git -C /opt/jaws pull
