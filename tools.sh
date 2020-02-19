@@ -216,3 +216,6 @@ git clone https://github.com/PowerShellMafia/PowerSploit.git /opt/powersploit ||
 
 # JAWS
 git clone https://github.com/411Hall/JAWS.git /opt/jaws || git -C /opt/jaws pull
+
+# Nishang
+git clone https://github.com/samratashok/nishang.git /opt/nishang || git -C /opt/nishang pull
