@@ -199,14 +199,14 @@ git clone https://github.com/rxwx/impacket.git /opt/impacket || git -C /opt/impa
 pip3 install -r /opt/impacket/requirements.txt
 pip3 install /opt/impacket/
 
+# Evil-winrm
+gem install evil-winrm
+
 # Stego Toolkit
 docker pull dominicbreuker/stego-toolkit
 
 # Powershell NTLM
 docker pull quickbreach/powershell-ntlm
-
-# Docker Bloodhound
-docker pull belane/bloodhound
 
 # Bloodhound
 git clone https://github.com/BloodHoundAD/BloodHound.git /opt/bloodhound || git -C /opt/bloodhound pull
