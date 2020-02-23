@@ -43,6 +43,12 @@ apt-get install -y passing-the-hash
 # Whatweb
 apt-get install -y whatweb
 
+# Crunch
+apt-get install -y crunch
+
+# Rsmangler
+apt-get install -y rsmangler
+
 # Enum4Linux - TODO - This has to be made silent
 apt-get install -y enum4linux
 
