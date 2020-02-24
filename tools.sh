@@ -49,6 +49,9 @@ apt-get install -y crunch
 # Rsmangler
 apt-get install -y rsmangler
 
+# Searchsploit
+apt-get install -y exploitdb
+
 # Enum4Linux - TODO - This has to be made silent
 apt-get install -y enum4linux
 
