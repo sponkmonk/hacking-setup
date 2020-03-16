@@ -55,6 +55,9 @@ apt-get install -y exploitdb
 # Enum4Linux - TODO - This has to be made silent
 apt-get install -y enum4linux
 
+# Nikto
+apt-get install -y nikto
+
 # Fnds
 export GOPATH=/opt/fdns
 go get -u github.com/jimen0/fdns/cmd/fdns
