@@ -58,6 +58,11 @@ apt-get install -y enum4linux
 # Nikto
 apt-get install -y nikto
 
+# GetAllUrls
+export GOPATH=/opt/gau
+go get -u github.com/lc/gau
+ln -s /opt/gau/bin/gau /usr/local/bin/gau
+
 # Fnds
 export GOPATH=/opt/fdns
 go get -u github.com/jimen0/fdns/cmd/fdns
